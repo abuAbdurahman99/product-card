@@ -4,36 +4,42 @@
   font-style: normal;
 }
 
+.bg-dandelions {
+  position: absolute;
+  top: -350px;
+  left: 0;
+  z-index: -1;
+  width: 790px;
+  height: 697px;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.title {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 78px;
+  padding-top: 150px;
+  color: #515076;
+}
+
 .product-card-wrapper {
+  position: relative;
+  z-index: 2;
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 45px;
-  left: 85px;
   width: 1110px;
   height: 1191px;
   margin: 0px auto;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 78px;
-  margin-top: 220px auto;
-  margin: 220px auto 125px auto;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #515076;
-}
-
-.bg-dandelions {
-  background: url("/images/bg-dandelions.png");
-  background-repeat: no-repeat;
-  background-size: 790px 697px;
+  overflow: visible;
 }
 
 .product-card {
