@@ -11,8 +11,14 @@
 </head>
 
 <body>
-  <div class="product-card-wrapper bg-dandelions">
+  <button id="recolor-first-card-button" class="other-btn">Перекрасить фон первой карточки</button>
+  <button id="recolor-all-card-button" class="other-btn">Перекрасить фон всех карточек</button>
+  <button id="open-google-button" class="other-btn">Открыть Google</button>
+
   <h1 class="title">Выбери свой продукт</h1>
+  <button id="colorBtn" class="color-change">Цветная кнопка</button>
+  <div class="product-card-wrapper">
+    <img src="/images/bg-dandelions.png" class="bg-dandelions">
 
     <div class="product-card">
       <img src="images/moisturizing-mousse.png" alt="Moisturizing mousse" class="product-card__images">
@@ -36,8 +42,8 @@
       <p class="prodct-card__product-purpose">для нормальной кожи</p>
       <h3 class="product-card__item-name">Увлажняющая маска</h3>
       <p class="product-card__description">Способствует удерживанию влаги в верхних слоях кожи.</p>
+      <span class="product-card__ingredients">Состав:</span>
       <ul>
-        <span class="product-card__ingredients">Состав:</span>
         <li class="product-card__ingredient-list" type="circle">воски</li>
         <li class="product-card__ingredient-list" type="circle">минералы</li>
         <li class="product-card__ingredient-list" type="circle">масла</li>
@@ -53,8 +59,8 @@
       <p class="prodct-card__product-purpose">для нормальной кожи</p>
       <h3 class="product-card__item-name">Гель для умывания</h3>
       <p class="product-card__description">Интенсивно очищает, не повреждает защитный барьер кожи.</p>
+      <span class="product-card__ingredients">Состав:</span>
       <ul>
-        <span class="product-card__ingredients">Состав:</span>
         <li class="product-card__ingredient-list" type="circle">минералы</li>
         <li class="product-card__ingredient-list" type="circle">витамины С, А, РР, В И Е</li>
         <li class="product-card__ingredient-list" type="circle">солнцезащитные компоненты</li>
@@ -70,8 +76,8 @@
       <p class="prodct-card__product-purpose">для нормальной кожи</p>
       <h3 class="product-card__item-name">Подарочный набор №1</h3>
       <p class="product-card__description">Набор, состоящий из увлажняющего крема и маски.</p>
+      <span class="product-card__ingredients">Состав:</span>
       <ul>
-        <span class="product-card__ingredients">Состав:</span>
         <li class="product-card__ingredient-list" type="circle">воски</li>
         <li class="product-card__ingredient-list" type="circle">минералы</li>
         <li class="product-card__ingredient-list" type="circle">масла</li>
@@ -87,8 +93,8 @@
       <p class="prodct-card__product-purpose">для нормальной кожи</p>
       <h3 class="product-card__item-name">Подарочный набор №5</h3>
       <p class="product-card__description">Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</p>
+      <span class="product-card__ingredients">Состав:</span>
       <ul>
-        <span class="product-card__ingredients">Состав:</span>
         <li class="product-card__ingredient-list" type="circle">воски</li>
         <li class="product-card__ingredient-list" type="circle">минералы</li>
         <li class="product-card__ingredient-list" type="circle">масла</li>
@@ -99,5 +105,6 @@
       </div>
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
 
