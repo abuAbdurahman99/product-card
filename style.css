@@ -1,0 +1,128 @@
+body {
+  width: 100%;
+  font-family: 'Montserrat';
+}
+
+.background-dandelions {
+  position: absolute;
+  z-index: -1;
+  width: 790px;
+  height: 697px;
+  top: 0;
+  left: 21%;
+}
+
+.title {
+  text-align: center;
+  z-index: 1;
+  color: #515076;
+  width: 846px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 70px;
+  margin: 0 auto;
+  margin-top: 220px;
+}
+
+.product-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  min-height: 1191px;
+  margin: auto;
+  width: 100%;
+  margin-top: 100px;
+  gap: 45px 45px;
+}
+
+.product-card {
+  width: 340px;
+  height: 573px;
+  border: 1px solid #F7F7FA;
+  background-color: #F7F7FA;
+}
+
+.product-card-image {
+  width: 290px;
+  height: 245px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.for-skin {
+  color: #515076;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+.product-name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #515076;
+  margin-left: 25px;
+}
+.description {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #515076;
+  margin-left: 25px;
+}
+
+.composition {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #515076;
+  margin-left: 25px;
+}
+
+.product-composition {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  color: #515076;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin-left: 0px;
+}
+
+.price-word {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #515076;
+  margin-left: 25px;
+}
+
+.price {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+  color: #515076;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-left: 25px;
+  }
+
+.price-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  margin-top: auto;
+  padding-bottom: 25px;
+}
