@@ -36,7 +36,7 @@ body {
   min-height: 1191px;
   margin: auto;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 70px;
   gap: 45px 45px;
 }
 
@@ -121,4 +121,46 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+}
+
+.button-container { 
+  display: flex;
+  gap: 5px;
+  transform: translateY(45px);
+}
+
+#recolor-first-card-button {
+  margin-left: 32%;
+  padding: 5px 5px;
+  font-size: 15px;
+  border: 1px #515076;
+}
+
+#recolor-cards-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  border: 1px #515076;
+}
+
+#transition-google-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  border: 1px #515076;
+}
+
+#color-button {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 20px;
+  padding: 5px 5px;
+  font-size: 18px;
+  border: 1px #515076;
+}
+
+.active {
+  background-color: #FFD700  ;
+}
+
+.background-color-cards {
+  background-color: #E0E0E0;
 }
