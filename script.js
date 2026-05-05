@@ -21,10 +21,10 @@ transitionGoogle.addEventListener('click', openGoogle);
 
 function openGoogle() {
   const answer = confirm('Вы действительно хотите перейти на сайт Google?')
-  if (answer === true) {
+  if (answer) {
     window.open('https://www.google.com');
   } else {
-    console.log('Передумал');
+    console.log('Пользователь отменил переход');
   };
 };
 
@@ -34,7 +34,7 @@ function openGoogle() {
  const titleMouseover = document.querySelector('.title');
 
  titleMouseover.addEventListener('mouseover', () => {
-  console.log('Курсор вошел в зону заголовка!');
+  console.log(titleMouseover.textContent);
  });
 
 /*4. Добавить кнопку, при нажатии на которую мы будем менять её цвет с одного на другой.
