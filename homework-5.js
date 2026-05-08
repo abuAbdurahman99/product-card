@@ -2,21 +2,19 @@
 "Сейчас в X температура  — Y градусов по Цельсию"*/
 
 //Вариант №1
-let city = 'Кожомкул'
-let temperature = '15°C'
 
-function showTemperature() {
-  console.log(`сейчас в селе ${city} температура ${temperature}`);
+function showTemperatureVillage(village, temperature) {
+  console.log(`сейчас в селе ${village} температура ${temperature}`);
 }
 
-showTemperature();
+showTemperatureVillage('Кожомкул', '15°C');
 
 //Вариант №2
-showTemperature2 = (city, temperature) => {
+let showTemperatureCity = (city, temperature) => {
   console.log(`в городе ${city} температура ${temperature}`);
 }
 
-showTemperature2('Бишкек', '20°C');
+showTemperatureCity('Бишкек', '20°C');
 
 /*4. Создать переменную, которая хранит внутри себя скорость света (гуглим). Создать функцию, которая принимает 1 аргумент -
 скорость, внутри функции происходит проверка: если переданная скорость выше скорости света — выводим лог "Сверхсветовая скорость",
