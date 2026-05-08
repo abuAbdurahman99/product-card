@@ -118,7 +118,7 @@ console.log(library)
  если книга выпущена позже 2000 года, устанавливаем true (да, это редкий), нет - false (значит это не редкий).*/
 
 const rareBooks = theDarkTowerUniverse.map((book) => {
-  return {...book, isRare: book.year < 2000}
+  return {...book, isRare: book.year > 2000}
 })
 
 console.log(rareBooks);
