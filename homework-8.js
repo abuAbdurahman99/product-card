@@ -27,10 +27,9 @@ function showProductCard() {
     }
   }
 
-const totalCardsToRender = showProductCard();
+function renderCards(cards) {
+cards.forEach(product => {
 
-
-productCards.slice(0, totalCardsToRender).forEach(product => {
   const productClone = productCardTemplate.content.cloneNode(true);
   productClone.querySelector('.for-skin').textContent = product.briefDescription;
   productClone.querySelector('.product-name').textContent = product.name;
@@ -46,4 +45,10 @@ productCards.slice(0, totalCardsToRender).forEach(product => {
 });
 
 allProducts.appendChild(productClone);
-});
+})
+}
+
+const totalCardsToRender = showProductCard();
+const slicedCards = productCards.slice(0, totalCardsToRender);
+
+renderCards(slicedCards);
